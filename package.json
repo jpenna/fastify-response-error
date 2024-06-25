@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "npx tsc app.ts && node app.js"
+  },
+  "dependencies": {
+    "@fastify/response-validation": "^2.6.0",
+    "@fastify/type-provider-typebox": "^4.0.0",
+    "@sinclair/typebox": "^0.32.34",
+    "@types/node": "^20.14.8",
+    "fastify": "^4.28.0",
+    "typescript": "^5.5.2"
+  }
+}
